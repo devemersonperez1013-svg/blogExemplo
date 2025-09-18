@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog pessoal do Emerson com posts e formulário de contato.">.
+    <title>Meu Blog Pessoal</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Blog do Emerson</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="posts">
+        <article>
+          <h2>Meu Primeiro Post</h2>
+          <p class="data"><small>Publicado em 01/01/2025</small></p>
+          <img class="imgPost" src="https://t3.ftcdn.net/jpg/03/18/60/62/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg" alt="Uma pessoa programando">
+          <p>
+            Este é o conteúdo do meu primeiro post no blog. Estou animado para
+            compartilhar minhas ideias e experiências com vocês.
+          </p>
+        </article>
+        <article>
+          <h2>Outro Post Interessante</h2>
+          <p class="data"><small>Publicado em 02/01/2025</small></p>
+          <img class="imgPost" src="https://wallpaperbat.com/img/873489-front-end-developer-wallpaper.jpg" alt="Código de função">
+          <p>
+            Este é o conteúdo de outro post interessante. Espero que vocês
+            gostem!
+          </p>
+        </article>
+
+        <article>
+          <h2>Rede Social</h2>
+          <p class="data"><small>Publicado em 05/09/2025</small></p>
+          <img class="imgPost" src="https://getwallpapers.com/wallpaper/full/5/b/1/317493.jpg" alt="Rede social">
+          <p>
+            A rede social conecta mundos, mas o verdadeiro elo ainda é o olhar,
+            estar frente a frente com a pessoas que você gosta de conversar
+          </p>
+        </article>
+      </section>
+      <aside class="sidebar">
+        <h2>Sobre Mim</h2>
+        <p>
+          Eu chamo Emerson, sou um desenvolvedor web iniciante, criando
+          experiências, páginas interativas e funcionais na web.
+        </p>
+        <h2>Links Úteis</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/devemersonperez1013-svg" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/emerson-ayrton-perez-mamani-112724385/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          </li>
+        </ul>
+        <hr>
+        <h2>Você sabia?</h2>
+        <p>A área de T.I. não é apenas programação, confira os cursos que fazem parte do T.I:</p>
+        <ul>
+          <li><u>Big Data</u></li>
+          <li><u>Cibersegurança</u></li>
+          <li><u>Gestão de tecnologia da informação</u></li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="footer-contato">
+      <div class="footer-content">
+        <p>&copy; 2025 Emerson Perez</p>
+        <h2>Entre em Contato</h2>
+        <p>Envie seu feedback pelo formulário abaixo: </p>
+        
+        <form class="footer-form">
+          <div class="sameLine">
+            <div class="form-row">
+              <input type="text" id="nome" name="nome" placeholder="Nome: " required>  
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" id="email" placeholder="Email: " required>
+            </div>            
+          </div>
+          <textarea name="mensagem" id="mensagem" rows="4" placeholder="Digite seu feedback..." required></textarea>
+          
+          <button type="submit"><span>Enviar</span> <span></span></button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
